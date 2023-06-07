@@ -1,0 +1,211 @@
+// Variables
+
+// Screens
+$phones: 360px;
+$large-phones: 400px;
+$tablets: 600px;
+$tablets-landscape: 900px;
+$desktops: 1200px;
+$wide-desktops: 1800px;
+$ultrawide-desktops: 2200px;
+
+// Colors - Primary
+$teal-10: #DEF7F7;
+$teal-20: #A8F0F0;
+$teal-30: #54DEDC;
+$teal-40: #009699;
+$teal-60: #007B7D;
+$teal-70: #005F61;
+$teal-80: #004748;
+
+$coral-10: #FFF1F0;
+$coral-20: #FCD4D0;
+$coral-30: #FFACA4;
+$coral-40: #EC6056;
+$coral-60: #BC442F;
+$coral-70: #A2331C;
+$coral-80: #751F0E;
+
+// Colors - Support
+// Yellows are deprecated. Use Mustard instead.
+$yellow-10: #FDF8ED;
+$yellow-20: #FCE9CF;
+$yellow-30: #ffc978;
+$yellow-40: #E9A449;
+$yellow-60: #935E25;
+$yellow-70: #663F19;
+$yellow-80: #38210A;
+
+$mustard-10: #FDF8ED;
+$mustard-20: #FCE9CF;
+$mustard-30: #FFC978;
+$mustard-40: #E9A449;
+$mustard-60: #935E25;
+$mustard-70: #663F19;
+$mustard-80: #38210A;
+
+$purple-10: #F7F0FF;
+$purple-20: #E3D1FA;
+$purple-30: #C7A3F5;
+$purple-40: #935FD3;
+$purple-60: #5A3489;
+$purple-70: #3d235c;
+$purple-80: #201230;
+
+$white: #fff;
+$mineral-10: #E8EFF3;
+$mineral-20: #CDDBE4;
+$mineral-30: #97AEBE;
+$mineral-40: #8095A3;
+$mineral-60: #576975;
+$mineral-70: #414F58;
+$mineral-80: #2E3942;
+$mineral-90: #1B2327;
+$black: #000;
+
+$red-60: #C22929;
+$pink-20: #F8B9D6;
+$pink-60: #CC005C;
+
+$gray-90: #E5E5E5;
+
+$black-10: rgba(0, 0, 0, 0.1);
+$black-20: rgba(0, 0, 0, .2);
+$black-35: rgba(0, 0, 0, .35);
+$black-50: rgba(0, 0, 0, 0.5);
+$black-55: rgba(0, 0, 0, 0.55); // Deprecated
+$black-75: rgba(0, 0, 0, 0.75);
+$black-87: rgba(0, 0, 0, 0.87);
+$black-90: rgba(0, 0, 0, 0.9); // Deprecated
+
+$white-pure: $white;
+$white-87: rgba(255, 255, 255, .87);
+$white-75: rgba(255, 255, 255, .75);
+$white-50: rgba(255, 255, 255, .5);
+$white-35: rgba(255, 255, 255, .35);
+$white-20: rgba(255, 255, 255, .2);
+$white-10: rgba(255, 255, 255, .1);
+
+$theme-colors: (
+  white: $white,
+  teal-10:$teal-10,
+  teal-20:$teal-20,
+  teal-30:$teal-30,
+  teal-40:$teal-40,
+  teal-60:$teal-60,
+  teal-70:$teal-70,
+  teal-80:$teal-80,
+
+  purple-10:$purple-10,
+  purple-20:$purple-20,
+  purple-30:$purple-30,
+  purple-40:$purple-40,
+  purple-60:$purple-60,
+  purple-70:$purple-70,
+  purple-80:$purple-80,
+
+
+);
+
+// Typography
+$weight-black: 900;
+$weight-extrabold: 800;
+$weight-bold: 700;
+$weight-semibold: 600;
+$weight-medium: 500;
+$weight-regular: 400;
+
+$style-italic: italic;
+// end-typography
+
+// Spacing
+// Novas variáveis para espaçamento
+$spacing-01: 16px;
+$spacing-02: 28px;
+$spacing-03: 32px;
+$spacing-04: 36px;
+$spacing-05: 72px;
+$spacing-06: 140px;
+
+$global-padding: $spacing-02;
+
+$mobile-title-margin-bottom: $spacing-01;
+$small-global-padding: $spacing-02;
+$small-box-vertical-padding: $spacing-03;
+$small-box-internal-padding-top: $spacing-04;
+$small-box-internal-padding-bottom: $spacing-05;
+$small-section-padding: $spacing-05;
+
+$tablet-box-internal-padding-top: $spacing-06;
+
+$large-box-internal-padding: $spacing-05;
+
+// Radius
+$global-round-corner: 160px;
+
+// New Blog Spacing
+
+// Font sizes
+$fs-highlight-title: 28px;
+$fs-title: 36px;
+$fs-subtitle: 20px;
+
+$fs-text-big: 20px;  // New variable bigger text
+$fs-text: 16px;  // New variable for general text
+$fs-details: 14px;  // New variable for smaller texts
+$fs-small: 12px;
+
+// Font features
+$linear-number: 'pnum' on, 'lnum' on;
+$ornament: 'ornm' on;
+
+// Spacing --- New tokens using calc on baseline 4px grid
+$baseline: 4px;
+$spacing-1: (1 * $baseline); // 4px
+$spacing-2: (2 * $baseline); // 8px
+$spacing-3: (3 * $baseline); // 12px
+$spacing-4: (4 * $baseline); // 16px
+$spacing-5: (5 * $baseline); // 20px
+$spacing-6: (6 * $baseline); // 24px
+$spacing-7: (7 * $baseline); // 28px
+$spacing-8: (8 * $baseline); // 32px
+$spacing-9: (9 * $baseline); // 36px
+$spacing-10: (10 * $baseline); // 40px
+$spacing-11: (11 * $baseline); // 44px
+$spacing-12: (12 * $baseline); // 48px
+$spacing-14: (14 * $baseline); // 56px
+$spacing-15: (15 * $baseline); // 60px
+$spacing-18: (18 * $baseline); // 72px
+$spacing-22: (22 * $baseline); // 88px
+$spacing-25: (25 * $baseline); // 100px
+$spacing-30: (30 * $baseline); // 120px
+$spacing-32: (32 * $baseline); // 128px
+$spacing-35: (35 * $baseline); // 140px
+$spacing-36: (36 * $baseline); // 144px
+$spacing-50: (50 * $baseline); // 200px
+$spacing-69: (69 * $baseline); // 276px
+
+// Radius
+// For mobile and smaller objects
+$radius-15: (15 * $baseline); // 60px
+$radius-20: (20 * $baseline); // 80px
+// For bigger objects
+$radius-30: (30 * $baseline); // 120px
+$radius-40: (40 * $baseline); // 160px
+
+// UL and OL ::before width variables
+$ol-lvl-1: 12px;
+$ol-lvl-2: 24px;
+$ol-lvl-3: 36px;
+
+$ul-lvl-1: 14px;
+$ul-lvl-2: 11px;
+$ul-lvl-3: 11px;
+
+// OL number list sizes -- Ul arrows follow text size variables. Check above.
+$ol-number: 15px;
+$ol-number-big: 18px;
+
+// Animation and speeds
+$speed-base: 0.4s; // for vertical fillings and small objects
+$speed-slow: 0.6s; // for horizontal fiilings and larger objects
