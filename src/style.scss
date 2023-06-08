@@ -21,4 +21,9 @@
  .card-body {
   padding: 40px 20px 40px 20px;
  }
+
+ .table {
+  --bs-table-bg: $white;
+  border-color: $white;
+ }
 }
