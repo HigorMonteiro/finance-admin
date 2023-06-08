@@ -18,6 +18,8 @@ $teal-60: #007B7D;
 $teal-70: #005F61;
 $teal-80: #004748;
 
+$green: #4FD18B;
+
 $coral-10: #FFF1F0;
 $coral-20: #FCD4D0;
 $coral-30: #FFACA4;
@@ -88,6 +90,8 @@ $white-10: rgba(255, 255, 255, .1);
 
 $theme-colors: (
   white: $white,
+  green: $green,
+
   teal-10:$teal-10,
   teal-20:$teal-20,
   teal-30:$teal-30,
@@ -104,7 +108,35 @@ $theme-colors: (
   purple-70:$purple-70,
   purple-80:$purple-80,
 
+  red-60: $red-60,
+  pink-20: $pink-20,
+  pink-60: $pink-60,
 
+  gray-90: $gray-90,
+  black-10: $black-10,
+  black-20: $black-20,
+  black-35: $black-35,
+  black-50: $black-50,
+  black-55: $black-55,
+  black-75: $black-75,
+  black-87: $black-87,
+  black-90: $black-90,
+
+  yellow-10: $yellow-10,
+  yellow-20: $yellow-20,
+  yellow-30: $yellow-30,
+  yellow-40: $yellow-40,
+  yellow-60: $yellow-60,
+  yellow-70: $yellow-70,
+  yellow-80: $yellow-80,
+  
+  mustard-10:$mustard-10,
+  mustard-20:$mustard-20,
+  mustard-30:$mustard-30,
+  mustard-40:$mustard-40,
+  mustard-60:$mustard-60,
+  mustard-70:$mustard-70,
+  mustard-80:$mustard-80,
 );
 
 // Typography

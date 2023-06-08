@@ -1,0 +1,24 @@
+.wallet_section {
+ margin-top: 60px;
+
+ &__card_wallet {
+  margin-bottom: 20px;
+ }
+ .card-title {
+  font-weight: bold;
+  margin-bottom: 16px;
+ }
+ .card-subtitle {
+  color: $green;
+  margin-bottom: 16px;
+ }
+
+ .card-text {
+  color: $mineral-30;
+  font-size: 16px;
+
+ }
+ .card-body {
+  padding: 40px 20px 40px 20px;
+ }
+}
